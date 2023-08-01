@@ -1,0 +1,52 @@
+.home{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    &_title{
+        font-size: 54px;
+        padding-top: 220px;
+        padding-bottom: 10px;
+        transition: 0.3s;
+    }
+    
+    &_lorem{
+        color: #b5b5b5;
+        font-size: 28px;
+        font-weight: 400;
+        padding-bottom: 40px;
+        transition: 0.3s;
+    }
+
+    &_link{
+        padding-right: 10px;
+    }
+}
+
+.next{
+    padding-top: 440px;
+    display: flex;
+    justify-content: center;
+}
+
+.next_link{
+    width: 140px;
+    display: flex;
+    justify-content: space-between;
+    background: none;
+    border: 1px solid #fff;
+    padding: 8px 22px;
+    border-radius: 8px;
+    transition: 0.3s;
+
+    &:hover{
+        background: rgb(0, 0, 0, 0.6);
+    }
+}
+
+.next_title{
+    font-size: 22px;
+    padding-right: 10px;
+}
+
+.next_icon{
+    padding-top: 3px;
+}

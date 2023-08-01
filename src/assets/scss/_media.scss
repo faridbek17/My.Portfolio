@@ -1,0 +1,286 @@
+// Header - Start
+@media (max-width: 1310px) {
+    .contact_content{
+        width: 340px;
+        height: 68px;
+    }
+}
+
+@media (max-width: 992px) {
+
+        .header_nav{
+            display: none;
+        }
+
+        .header_btns{
+            display: flex;
+        }
+
+        .contact_content{
+            width: 240px;
+            height: 58px;
+        }
+
+        .contact_content-title-h1{
+            font-size: 12px;
+        }
+
+        .contact_content-title-h2{
+            font-size: 10px;
+        }
+    }
+
+    @media (max-width: 700px) {
+        .contact_end{
+            display: inline-block;
+        }
+
+        .contact_content{
+            width: 440px;
+            height: 68px;
+        }
+
+        .contact_content-title-h1{
+            font-size: 18px;
+        }
+
+        .contact_content-title-h2{
+            font-size: 14px;
+        }
+
+        .header_panel{
+            width: 200px;
+        }
+    }
+
+    @media (max-width: 600px) {
+        .contact_end{
+            display: inline-block;
+        }
+
+        .contact_content{
+            width: 300px;
+            height: 58px;
+        }
+
+        .contact_content-title-h1{
+            font-size: 12px;
+        }
+
+        .contact_content-title-h2{
+            font-size: 10px;
+        }
+
+        .contact_h1{
+            font-size: 22px;
+        }
+    }
+
+    @media (max-width: 400px){
+        .contact_content{
+            width: 220px;
+            height: 58px;
+        }
+
+        .contact_content-title-h1{
+            font-size: 10px;
+        }
+    }
+// Header - End 
+
+// About - Start
+
+@media (max-width: 1070px){
+    .about_pasd{
+        font-size: 22px;
+    }
+
+    .about_malu{
+        font-size: 18px;
+    }
+
+    .about_atve{
+        font-size: 16px;
+    }
+
+    .about_content-img{
+        width: 500px;
+        height: 320px;
+    }
+
+}
+
+@media (max-width: 930px){
+    .about_content-content{
+        padding-left: 60px;
+        width: 80vh;
+    }
+
+    .about_content-img{
+        width: 500px;
+        height: 280px;
+    }
+}
+
+@media (max-width: 860px){
+    .about_pasd{
+        font-size: 18px;
+    }
+
+    .about_malu{
+        font-size: 16px;
+    }
+
+    .about_atve{
+        font-size: 14px;
+    }
+
+    .about_content-img{
+        width: 420px;
+        height: 240px;
+    }
+
+    .about_content{
+        margin-bottom: 20px;
+        width: 80%;
+        height: 36vh;
+    }
+
+    .skills_name{
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 740px){
+    .about_pasd{
+        font-size: 16px;
+    }
+
+    .about_malu{
+        font-size: 14px;
+    }
+
+    .about_atve{
+        font-size: 12px;
+    }
+
+    .about_content-img{
+        width: 400px;
+        height: 200px;
+    }
+
+    .about_content{
+        margin-bottom: 20px;
+        width: 80%;
+        height: 30vh;
+    }
+}
+
+@media (max-width: 660px){
+    .about_pasd{
+        font-size: 12px;
+    }
+
+    .about_malu{
+        font-size: 10px;
+    }
+
+    .about_atve{
+        font-size: 8px;
+    }
+
+    .about_content-img{
+        width: 300px;
+        height: 150px;
+    }
+
+    .about_content{
+        margin-bottom: 20px;
+        width: 80%;
+        height: 30vh;
+    }
+}
+
+@media (max-width: 600px){
+    .about_content-img{
+        width: 330px;
+        height: 110px;
+    }
+
+    .about_content-content{
+        padding-left: 20px;
+    }
+
+    .about_pasd{
+        padding: 0 10px 10px 10px ;
+    }
+
+    .about_malu{
+        padding: 4px 10px;
+    }
+}
+
+// About - End
+
+// Portfolio - Start
+
+@media (max-width: 950px){
+    .swiper{
+        width: 600px;
+        height: 320px;
+    }
+
+    .portfolio_h2{
+        font-size: 26px;
+    }
+}
+
+@media (max-width: 660px){
+    .swiper{
+        width: 400px;
+        height: 220px;
+    }
+
+    .portfolio_h2{
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 440px){
+    .swiper{
+        width: 300px;
+        height: 160px;
+    }
+
+    .portfolio_h2{
+        font-size: 22px;
+    }
+}
+
+// Portfolio - End
+
+// Home - Start
+
+@media (max-width: 660px){
+    .home_title{
+        font-size: 38px;
+    }
+
+    .home_lorem{
+        font-size: 22px;
+        padding-bottom: 20px;
+    }
+}
+
+@media (max-width: 480px){
+    .home_title{
+        font-size: 22px;
+    }
+
+    .home_lorem{
+        font-size: 12px;
+        padding-bottom: 20px;
+    }
+}
+
+// Home - End
